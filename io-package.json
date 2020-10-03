@@ -1,0 +1,41 @@
+{
+    "common": {
+        "name": "Luxtronik2",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial adapter",
+                "de": "Initiale Version",
+                "ru": "Первоначальный адаптер",
+                "pt": "Versão inicial",
+                "fr": "Version initiale",
+                "nl": "Eerste release"
+            }
+        },
+        "title": "Alpha-Innotec Heizungssteuerung",
+        "desc": {
+            "en": "ioBroker Luxtronik2 Adapter",
+            "de": "ioBroker Luxtronik2 Adapter",
+            "ru": "ioBroker Luxtronik2 драйвер как образец",
+            "pt": "Modelo de adaptador para o ioBroker",
+            "fr": "ioBroker adaptateur modèle",
+            "nl": "ioBroker Luxtronik2 Adapter"
+        },
+        "platform": "Javascript/Node.js",
+        "mode": "daemon",
+        "icon": "Luxtronik2.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/Schpeidaman/ioBroker.Luxtronik2/master/admin/hpcontrol.png",
+        "keywords": ["Luxtronik2", "buderus", "alpha innotec"],
+        "readme": "https://github.com/Schpeidaman/ioBroker.Luxtronik2/blob/master/README.md",
+        "loglevel": "info",
+        "type": "hardware"
+    },
+    "native": {
+        "hpip": "192.168.10.108",
+        "hpport": 8888
+    },
+    "objects": [
+
+    ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "iobroker.Luxtronik2",
+  "version": "0.0.1",
+  "description": "ioBroker Luxtronik2 Adapter",
+  "author": {
+    "name": "Schpeidaman",
+    "email": ""
+  },
+  "contributors": [
+    {
+      "name": "Schpeidaman",
+      "email": ""
+    }
+  ],
+  "homepage": "https://github.com/Schpeidaman/ioBroker.Luxtronik2",
+  "license": "MIT",
+  "keywords": [
+    "ioBroker",
+    "Luxtronik2",
+    "Smart Home",
+    "home  automation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Schpeidaman/ioBroker.Luxtronik2"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-replace": "^0.9.3",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-jscs": "^2.0.0",
+    "grunt-http": "^1.6.0",
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1"
+  },
+  "main": "main.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha"
+  },
+  "bugs": {
+    "url": "https://github.com/Schpeidaman/ioBroker.Luxtronik2/issues"
+  },
+  "readmeFilename": "README.md"
+}
